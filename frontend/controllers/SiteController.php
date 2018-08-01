@@ -34,7 +34,7 @@ class SiteController extends Controller
                         'roles' => ['?'],
                     ],
                     [
-                        'actions' => ['logout'],
+                        'actions' => ['logout', 'distribusi-pangan'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -293,6 +293,15 @@ class SiteController extends Controller
 
         return $this->render('formDistribusiPangan', [
             'model' => $model,
+        ]);
+    }
+
+    public function actionPeta()
+    {
+        $model = new \common\models\KontributorPangan();
+
+        return $this->render('peta', [
+          'model' => $model,
         ]);
     }
 }
