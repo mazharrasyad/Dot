@@ -11210,3 +11210,585 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1533120491.592
     'REQUEST_TIME' => 1533120491
 ]
+2018-08-01 15:13:28 [::1][3][6cjoual9ed18e4chuqukutrmo7][error][ParseError] ParseError: syntax error, unexpected ':', expecting ']' in C:\xampp\htdocs\dot\frontend\views\site\formDistribusiPangan.php:17
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('formDistribusiP...', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(295): yii\base\Controller->render('formDistribusiP...', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionDistribusiPangan()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('distribusi-pang...', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/distribusi...', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-01 15:13:27 [::1][3][6cjoual9ed18e4chuqukutrmo7][info][application] $_GET = [
+    'r' => 'site/distribusi-pangan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[3,\"xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm\",2592000]\";}'
+    'advanced-frontend' => '6cjoual9ed18e4chuqukutrmo7'
+    '_csrf-frontend' => '56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh\";}'
+    'advanced-backend' => 'ffbke6fub001q1p5g6dn6l88jb'
+    '_csrf-backend' => '08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"VfHugunqLt_Q3In8ONTbBV_4RciPm99m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm%22%2C2592000%5D%22%3B%7D; advanced-frontend=6cjoual9ed18e4chuqukutrmo7; _csrf-frontend=56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh%22%3B%7D; advanced-backend=ffbke6fub001q1p5g6dn6l88jb; _csrf-backend=08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22VfHugunqLt_Q3In8ONTbBV_4RciPm99m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '50795'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdistribusi-pangan'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site%2Fdistribusi-pangan'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533129207.773
+    'REQUEST_TIME' => 1533129207
+]
+2018-08-01 15:13:36 [::1][3][6cjoual9ed18e4chuqukutrmo7][error][ParseError] ParseError: syntax error, unexpected ':', expecting ']' in C:\xampp\htdocs\dot\frontend\views\site\formDistribusiPangan.php:17
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('formDistribusiP...', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(295): yii\base\Controller->render('formDistribusiP...', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionDistribusiPangan()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('distribusi-pang...', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/distribusi...', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-01 15:13:36 [::1][3][6cjoual9ed18e4chuqukutrmo7][info][application] $_GET = [
+    'r' => 'site/distribusi-pangan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[3,\"xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm\",2592000]\";}'
+    'advanced-frontend' => '6cjoual9ed18e4chuqukutrmo7'
+    '_csrf-frontend' => '56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh\";}'
+    'advanced-backend' => 'ffbke6fub001q1p5g6dn6l88jb'
+    '_csrf-backend' => '08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"VfHugunqLt_Q3In8ONTbBV_4RciPm99m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm%22%2C2592000%5D%22%3B%7D; advanced-frontend=6cjoual9ed18e4chuqukutrmo7; _csrf-frontend=56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh%22%3B%7D; advanced-backend=ffbke6fub001q1p5g6dn6l88jb; _csrf-backend=08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22VfHugunqLt_Q3In8ONTbBV_4RciPm99m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '50799'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdistribusi-pangan'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site%2Fdistribusi-pangan'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533129216.291
+    'REQUEST_TIME' => 1533129216
+]
+2018-08-01 15:13:44 [::1][3][6cjoual9ed18e4chuqukutrmo7][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'id' of non-object in C:\xampp\htdocs\dot\frontend\views\site\formDistribusiPangan.php:41
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\formDistribusiPangan.php(41): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('formDistribusiP...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(295): yii\base\Controller->render('formDistribusiP...', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionDistribusiPangan()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('distribusi-pang...', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/distribusi...', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-01 15:13:44 [::1][3][6cjoual9ed18e4chuqukutrmo7][info][application] $_GET = [
+    'r' => 'site/distribusi-pangan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[3,\"xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm\",2592000]\";}'
+    'advanced-frontend' => '6cjoual9ed18e4chuqukutrmo7'
+    '_csrf-frontend' => '56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh\";}'
+    'advanced-backend' => 'ffbke6fub001q1p5g6dn6l88jb'
+    '_csrf-backend' => '08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"VfHugunqLt_Q3In8ONTbBV_4RciPm99m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm%22%2C2592000%5D%22%3B%7D; advanced-frontend=6cjoual9ed18e4chuqukutrmo7; _csrf-frontend=56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh%22%3B%7D; advanced-backend=ffbke6fub001q1p5g6dn6l88jb; _csrf-backend=08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22VfHugunqLt_Q3In8ONTbBV_4RciPm99m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '50803'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdistribusi-pangan'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site%2Fdistribusi-pangan'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533129224.498
+    'REQUEST_TIME' => 1533129224
+]
+2018-08-01 15:14:00 [::1][3][6cjoual9ed18e4chuqukutrmo7][error][ParseError] ParseError: syntax error, unexpected '.' in C:\xampp\htdocs\dot\frontend\views\site\formDistribusiPangan.php:17
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('formDistribusiP...', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(295): yii\base\Controller->render('formDistribusiP...', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionDistribusiPangan()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('distribusi-pang...', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/distribusi...', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-01 15:13:59 [::1][3][6cjoual9ed18e4chuqukutrmo7][info][application] $_GET = [
+    'r' => 'site/distribusi-pangan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[3,\"xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm\",2592000]\";}'
+    'advanced-frontend' => '6cjoual9ed18e4chuqukutrmo7'
+    '_csrf-frontend' => '56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh\";}'
+    'advanced-backend' => 'ffbke6fub001q1p5g6dn6l88jb'
+    '_csrf-backend' => '08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"VfHugunqLt_Q3In8ONTbBV_4RciPm99m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm%22%2C2592000%5D%22%3B%7D; advanced-frontend=6cjoual9ed18e4chuqukutrmo7; _csrf-frontend=56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh%22%3B%7D; advanced-backend=ffbke6fub001q1p5g6dn6l88jb; _csrf-backend=08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22VfHugunqLt_Q3In8ONTbBV_4RciPm99m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '50805'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdistribusi-pangan'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site%2Fdistribusi-pangan'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533129239.959
+    'REQUEST_TIME' => 1533129239
+]
+2018-08-01 15:14:04 [::1][3][6cjoual9ed18e4chuqukutrmo7][error][ParseError] ParseError: syntax error, unexpected '.' in C:\xampp\htdocs\dot\frontend\views\site\formDistribusiPangan.php:17
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('formDistribusiP...', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(295): yii\base\Controller->render('formDistribusiP...', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionDistribusiPangan()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('distribusi-pang...', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/distribusi...', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-01 15:14:04 [::1][3][6cjoual9ed18e4chuqukutrmo7][info][application] $_GET = [
+    'r' => 'site/distribusi-pangan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[3,\"xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm\",2592000]\";}'
+    'advanced-frontend' => '6cjoual9ed18e4chuqukutrmo7'
+    '_csrf-frontend' => '56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh\";}'
+    'advanced-backend' => 'ffbke6fub001q1p5g6dn6l88jb'
+    '_csrf-backend' => '08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"VfHugunqLt_Q3In8ONTbBV_4RciPm99m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm%22%2C2592000%5D%22%3B%7D; advanced-frontend=6cjoual9ed18e4chuqukutrmo7; _csrf-frontend=56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh%22%3B%7D; advanced-backend=ffbke6fub001q1p5g6dn6l88jb; _csrf-backend=08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22VfHugunqLt_Q3In8ONTbBV_4RciPm99m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '50807'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdistribusi-pangan'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site%2Fdistribusi-pangan'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533129244.77
+    'REQUEST_TIME' => 1533129244
+]
+2018-08-01 15:15:06 [::1][3][6cjoual9ed18e4chuqukutrmo7][error][ParseError] ParseError: syntax error, unexpected ':', expecting ']' in C:\xampp\htdocs\dot\frontend\views\site\formDistribusiPangan.php:17
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('formDistribusiP...', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(295): yii\base\Controller->render('formDistribusiP...', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionDistribusiPangan()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('distribusi-pang...', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/distribusi...', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-01 15:15:06 [::1][3][6cjoual9ed18e4chuqukutrmo7][info][application] $_GET = [
+    'r' => 'site/distribusi-pangan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[3,\"xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm\",2592000]\";}'
+    'advanced-frontend' => '6cjoual9ed18e4chuqukutrmo7'
+    '_csrf-frontend' => '56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh\";}'
+    'advanced-backend' => 'ffbke6fub001q1p5g6dn6l88jb'
+    '_csrf-backend' => '08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"VfHugunqLt_Q3In8ONTbBV_4RciPm99m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm%22%2C2592000%5D%22%3B%7D; advanced-frontend=6cjoual9ed18e4chuqukutrmo7; _csrf-frontend=56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh%22%3B%7D; advanced-backend=ffbke6fub001q1p5g6dn6l88jb; _csrf-backend=08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22VfHugunqLt_Q3In8ONTbBV_4RciPm99m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '50814'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdistribusi-pangan'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site%2Fdistribusi-pangan'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533129306.649
+    'REQUEST_TIME' => 1533129306
+]
+2018-08-01 15:15:33 [::1][3][6cjoual9ed18e4chuqukutrmo7][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class common\models\KontributorPangan could not be converted to string in C:\xampp\htdocs\dot\vendor\yiisoft\yii2\helpers\BaseHtml.php:562
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\helpers\BaseHtml.php(562): yii\base\ErrorHandler->handleError(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 562, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\helpers\BaseHtml.php(1330): yii\helpers\BaseHtml::input('text', 'DistribusiPanga...', Object(common\models\KontributorPangan), Array)
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\helpers\BaseHtml.php(1377): yii\helpers\BaseHtml::activeInput('text', Object(common\models\DistribusiPangan), 'kontributor_pan...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\widgets\ActiveField.php(404): yii\helpers\BaseHtml::activeTextInput(Object(common\models\DistribusiPangan), 'kontributor_pan...', Array)
+#4 C:\xampp\htdocs\dot\frontend\views\site\formDistribusiPangan.php(41): yii\widgets\ActiveField->textInput(Array)
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('formDistribusiP...', Array, Object(frontend\controllers\SiteController))
+#9 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(295): yii\base\Controller->render('formDistribusiP...', Array)
+#10 [internal function]: frontend\controllers\SiteController->actionDistribusiPangan()
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('distribusi-pang...', Array)
+#14 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/distribusi...', Array)
+#15 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+2018-08-01 15:15:33 [::1][3][6cjoual9ed18e4chuqukutrmo7][info][application] $_GET = [
+    'r' => 'site/distribusi-pangan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[3,\"xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm\",2592000]\";}'
+    'advanced-frontend' => '6cjoual9ed18e4chuqukutrmo7'
+    '_csrf-frontend' => '56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh\";}'
+    'advanced-backend' => 'ffbke6fub001q1p5g6dn6l88jb'
+    '_csrf-backend' => '08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"VfHugunqLt_Q3In8ONTbBV_4RciPm99m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=a504e44877cf76350f4069183d9d9cb640ea7e69d45125047fb8cfc1d6a7d5e2a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xyvzg3AQx9R1vBA8GL6-BEYmn6-IKlFm%22%2C2592000%5D%22%3B%7D; advanced-frontend=6cjoual9ed18e4chuqukutrmo7; _csrf-frontend=56ef4468ca162775b5f066502dfdaa9f4f4af4075aa52cf538ea39f23744ec6ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YsEZYD5ox32ikshCEkLoFPhU0Zbm3Buh%22%3B%7D; advanced-backend=ffbke6fub001q1p5g6dn6l88jb; _csrf-backend=08ce7ec88ec298228d4cc23996383022000d9561211e55e85c8cbfd06cbe80b1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22VfHugunqLt_Q3In8ONTbBV_4RciPm99m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '50826'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdistribusi-pangan'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site%2Fdistribusi-pangan'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533129333.644
+    'REQUEST_TIME' => 1533129333
+]

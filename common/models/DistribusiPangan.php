@@ -66,4 +66,14 @@ class DistribusiPangan extends \yii\db\ActiveRecord
     {
         return $this->hasOne(KontributorPangan::className(), ['id' => 'kontributor_pangan_id']);
     }
+
+    public function getStok()
+    {
+        return $this->stok_rata2 . ' ' . $this->satuan_stok;
+    }
+
+    public function getHarga()
+    {
+        return $this->harga_rata2 . ' / KG';
+    }
 }

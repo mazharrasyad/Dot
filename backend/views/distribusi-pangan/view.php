@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model common\models\DistribusiPangan */
 
-$this->title = $model->id;
+$this->title = $model->kontributorPangan->nama_lengkap;
 $this->params['breadcrumbs'][] = ['label' => 'Distribusi Pangans', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -29,12 +29,23 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'id',
-            'kontributor_pangan_id',
+            [
+              'label' => 'Nama Kontributor Pangan',
+              'value' => $model->kontributorPangan->nama_lengkap,
+            ],
             'tanggal',
             'bahan_pangan',
-            'stok_rata2',
-            'satuan_stok',
-            'harga_rata2',
+            [
+              'label' => 'Stok Rata-Rata',
+              'value' => $model->stok,
+            ],
+            [
+              'label' => 'Harga Rata-Rata',
+              'value' => $model->harga,
+            ],
+            //'stok_rata2',
+            //'satuan_stok',
+            //'harga_rata2',
         ],
     ]) ?>
 

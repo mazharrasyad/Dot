@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel common\models\DistribusiPanganSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Distribusi Pangans';
+$this->title = 'Data Distribusi Pangan';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="distribusi-pangan-index">
@@ -25,13 +25,25 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
-            'kontributor_pangan_id',
+            //'id',
+            [
+              'label' => 'Nama Kontributor Pangan',
+              'attribute' => 'kontributor_pangan_id',
+              'value' => 'kontributorPangan.nama_lengkap',
+            ],
             'tanggal',
             'bahan_pangan',
-            'stok_rata2',
+            [
+              'label' => 'Stok Rata-Rata',
+              'attribute' => 'stok_rata2',
+              'value' => 'stok',
+            ],
             //'satuan_stok',
-            //'harga_rata2',
+            [
+              'label' => 'Harga Rata-Rata',
+              'attribute' => 'harga_rata2',
+              'value' => 'harga',
+            ],
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

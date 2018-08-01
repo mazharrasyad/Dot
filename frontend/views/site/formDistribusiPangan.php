@@ -14,11 +14,8 @@ $this->title = 'Mendata Distribusi Pangan';
 $this->params['breadcrumbs'][] = $this->title;
 
 $kontributor_pangan_id = KontributorPangan::find()
-  ->where(['nama_lengkap' => 'Muhammad Hasbi Sidiq'])
+  ->where(['user_id' => Yii::$app->user->identity->id ])
   ->one();
-
-$user_id = ArrayHelper::map(\common\models\User::find()->asArray()->all(), 'id', 'username');
-
 ?>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -38,7 +35,7 @@ $user_id = ArrayHelper::map(\common\models\User::find()->asArray()->all(), 'id',
   <h1><?= Html::encode($this->title) ?></h1>
 
     <?php $form = ActiveForm::begin(); ?>
-        <?= $form->field($model, 'kontributor_pangan_id')->textInput(['value' => $model->id]) ?>
+        <div hidden> <?= $form->field($model, 'kontributor_pangan_id')->textInput(['value' => $kontributor_pangan_id->id]) ?> </div>
         <?= $form->field($model, 'tanggal')->input('date')->hint('Contoh : 31 / 12 / 2018')->label('Tanggal Mendata') ?>
         <?= $form->field($model, 'bahan_pangan')->hint('Contoh : Beras')->textInput(['id' => 'txtState']) ?>
         <?= $form->field($model, 'stok_rata2')->hint('Contoh : 50')->label('Stok Rata-Rata Bahan Pangan')->textInput(['type' => 'number']) ?>
