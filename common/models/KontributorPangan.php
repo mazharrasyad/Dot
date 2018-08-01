@@ -57,7 +57,7 @@ class KontributorPangan extends \yii\db\ActiveRecord
             [['email'], 'unique'],
             [['kota'], 'exist', 'skipOnError' => true, 'targetClass' => Kota::className(), 'targetAttribute' => ['kota' => 'id']],
             [['kecamatan'], 'exist', 'skipOnError' => true, 'targetClass' => Kecamatan::className(), 'targetAttribute' => ['kecamatan' => 'id']],
-            [['kelurahan'], 'exist', 'skipOnError' => true, 'targetClass' => Kelurahan::className(), 'targetAttribute' => ['kelurahan' => 'nama']],
+            [['kelurahan'], 'exist', 'skipOnError' => true, 'targetClass' => Kelurahan::className(), 'targetAttribute' => ['kelurahan' => 'id']],
             [['email'], 'email'],
             [['nik'], 'string', 'min' => 16],
             [['npwp'], 'string', 'min' => 15],

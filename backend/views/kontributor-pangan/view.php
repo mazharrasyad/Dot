@@ -35,19 +35,19 @@ $this->params['breadcrumbs'][] = $this->title;
             'no_handphone',
             'email:email',
             [
-              'label' => 'provinsi',
+              'label' => 'Provinsi',
               'value' => $model->provinsi0->nama,
             ],
             [
-              'label' => 'kota',
+              'label' => 'Kota',
               'value' => $model->kota0->nama,
             ],
             [
-              'label' => 'kecamatan',
+              'label' => 'Kecamatan',
               'value' => $model->kecamatan0->nama,
             ],
             [
-              'label' => 'kelurahan',
+              'label' => 'Kelurahan',
               'value' => $model->kelurahan0->nama,
             ],
             'rt',

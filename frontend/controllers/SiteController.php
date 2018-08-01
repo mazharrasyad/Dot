@@ -281,4 +281,18 @@ class SiteController extends Controller
             echo "<option>-</option>";
 
     }
+
+    public function actionDistribusiPangan()
+    {
+        $model = new \common\models\DistribusiPangan();
+
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            Yii::$app->session->setFlash('success', "Data berhasil dimasukkan");
+            return $this->redirect(['index']);
+        }
+
+        return $this->render('formDistribusiPangan', [
+            'model' => $model,
+        ]);
+    }
 }

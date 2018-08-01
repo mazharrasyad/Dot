@@ -147,7 +147,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <div hidden> <?= $form->field($model, 'lng')->textInput(['maxlength' => true, 'id' => "lng"]) ?> </div>
 
-    <!-- $form->field($model, 'user_id')->textInput() ?> -->
+    <?= $form->field($model, 'user_id')->textInput(['value' => '0']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Daftar', ['id' => 'btnValidate', 'class' => 'btn btn-success']) ?>

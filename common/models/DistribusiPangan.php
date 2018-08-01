@@ -38,8 +38,8 @@ class DistribusiPangan extends \yii\db\ActiveRecord
             [['tanggal'], 'safe'],
             [['stok_rata2', 'harga_rata2'], 'number'],
             [['bahan_pangan'], 'string', 'max' => 30],
-            [['satuan_stok'], 'string', 'max' => 5],
             [['kontributor_pangan_id'], 'exist', 'skipOnError' => true, 'targetClass' => KontributorPangan::className(), 'targetAttribute' => ['kontributor_pangan_id' => 'id']],
+            [['harga_rata2'], 'number', 'min' => '500']
         ];
     }
 

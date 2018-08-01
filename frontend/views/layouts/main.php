@@ -25,7 +25,6 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-
 <div class="wrap">
     <?php
     NavBar::begin([
@@ -37,13 +36,16 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'About', 'url' => ['/site/about']],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
+        //['label' => 'About', 'url' => ['/site/about']],
+        //['label' => 'Contact', 'url' => ['/site/contact']],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
     } else {
+        if (Yii::$app->user->identity->role_id == '2')
+          $menuItems[] = ['label' => 'Mendata Distribusi Pangan', 'url' => ['/site/distribusi-pangan']];
+
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
             . Html::submitButton(

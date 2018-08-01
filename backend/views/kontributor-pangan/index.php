@@ -34,11 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //'provinsi',
             //'kota',
             //'kecamatan',
-            'kelurahan',
-            [
-              'attribute' => 'kelurahan',
-              'value' => 'kelurahan0.nama',
-            ],
+            //'kelurahan',
             //'rt',
             //'rw',
             //'kode_pos',
