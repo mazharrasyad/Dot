@@ -4,6 +4,7 @@ return [
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=db_dot',
+            //db_dot.sql
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',
