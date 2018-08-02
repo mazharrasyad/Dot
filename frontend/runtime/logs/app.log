@@ -13164,3 +13164,2626 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1533137460.216
     'REQUEST_TIME' => 1533137460
 ]
+2018-08-02 04:45:01 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: form in C:\xampp\htdocs\dot\frontend\views\site\peta.php:96
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(96): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 04:45:01 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '52449'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533177901.565
+    'REQUEST_TIME' => 1533177901
+]
+2018-08-02 04:46:11 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][ParseError] ParseError: syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\dot\frontend\views\site\peta.php:98
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionPeta()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-02 04:46:11 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '52453'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533177970.995
+    'REQUEST_TIME' => 1533177970
+]
+2018-08-02 04:52:20 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][ParseError] ParseError: syntax error, unexpected ']', expecting end of file in C:\xampp\htdocs\dot\frontend\views\site\peta.php:104
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionPeta()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-02 04:52:20 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '52475'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533178340.642
+    'REQUEST_TIME' => 1533178340
+]
+2018-08-02 05:13:24 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][Error] Error: Call to undefined method yii\helpers\Html::date() in C:\xampp\htdocs\dot\frontend\views\site\peta.php:96
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#5 [internal function]: frontend\controllers\SiteController->actionPeta()
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2018-08-02 05:13:24 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '52571'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533179604.614
+    'REQUEST_TIME' => 1533179604
+]
+2018-08-02 05:14:10 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][Error] Error: Call to a member function input() on string in C:\xampp\htdocs\dot\frontend\views\site\peta.php:96
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#5 [internal function]: frontend\controllers\SiteController->actionPeta()
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2018-08-02 05:14:10 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '52582'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533179649.986
+    'REQUEST_TIME' => 1533179649
+]
+2018-08-02 05:14:28 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][Error] Error: Call to a member function label() on string in C:\xampp\htdocs\dot\frontend\views\site\peta.php:96
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#5 [internal function]: frontend\controllers\SiteController->actionPeta()
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2018-08-02 05:14:28 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '52586'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533179668.655
+    'REQUEST_TIME' => 1533179668
+]
+2018-08-02 05:22:36 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: provinsi in C:\xampp\htdocs\dot\frontend\views\site\peta.php:52
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(52): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 05:22:36 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '52791'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533180156.084
+    'REQUEST_TIME' => 1533180156
+]
+2018-08-02 05:28:11 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: provinsi in C:\xampp\htdocs\dot\frontend\views\site\peta.php:48
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(48): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 05:28:11 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53100'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533180491.648
+    'REQUEST_TIME' => 1533180491
+]
+2018-08-02 05:39:07 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][ParseError] ParseError: syntax error, unexpected '?>' in C:\xampp\htdocs\dot\frontend\views\site\peta.php:49
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionPeta()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-02 05:39:07 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53301'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533181147.659
+    'REQUEST_TIME' => 1533181147
+]
+2018-08-02 05:52:34 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][ParseError] ParseError: syntax error, unexpected '?>' in C:\xampp\htdocs\dot\frontend\views\site\peta.php:45
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionPeta()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-02 05:52:34 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53586'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533181954.177
+    'REQUEST_TIME' => 1533181954
+]
+2018-08-02 05:52:49 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][ParseError] ParseError: syntax error, unexpected '?>' in C:\xampp\htdocs\dot\frontend\views\site\peta.php:45
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionPeta()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-02 05:52:49 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53592'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533181969.548
+    'REQUEST_TIME' => 1533181969
+]
+2018-08-02 05:53:11 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][ParseError] ParseError: syntax error, unexpected '?>' in C:\xampp\htdocs\dot\frontend\views\site\peta.php:45
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionPeta()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-02 05:53:11 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53600'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533181991.654
+    'REQUEST_TIME' => 1533181991
+]
+2018-08-02 05:53:18 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][ParseError] ParseError: syntax error, unexpected '?>', expecting ']' in C:\xampp\htdocs\dot\frontend\views\site\peta.php:45
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionPeta()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-02 05:53:18 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53604'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533181998.751
+    'REQUEST_TIME' => 1533181998
+]
+2018-08-02 05:54:25 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][ParseError] ParseError: syntax error, unexpected '?>' in C:\xampp\htdocs\dot\frontend\views\site\peta.php:34
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionPeta()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-02 05:54:25 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53610'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533182065.269
+    'REQUEST_TIME' => 1533182065
+]
+2018-08-02 05:55:00 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: diprov in C:\xampp\htdocs\dot\frontend\views\site\peta.php:34
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(34): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 05:55:00 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53616'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533182100.396
+    'REQUEST_TIME' => 1533182100
+]
+2018-08-02 06:00:06 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: diprov in C:\xampp\htdocs\dot\frontend\views\site\peta.php:53
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(53): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 06:00:06 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53680'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533182406.202
+    'REQUEST_TIME' => 1533182406
+]
+2018-08-02 06:01:34 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:2] yii\base\ErrorException: DOMDocument::load(): I/O warning : failed to load external entity &quot;file:/C:/xampp/htdocs/dot/frontend/web/book.xml&quot; in C:\xampp\htdocs\dot\frontend\views\site\peta.php:39
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'DOMDocument::lo...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\dot\frontend\views\site\peta.php(39): DOMDocument->load('book.xml')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#7 [internal function]: frontend\controllers\SiteController->actionPeta()
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#12 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2018-08-02 06:01:34 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53694'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533182494.328
+    'REQUEST_TIME' => 1533182494
+]
+2018-08-02 06:02:16 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:2] yii\base\ErrorException: DOMDocument::load(): I/O warning : failed to load external entity &quot;file:/C:/xampp/htdocs/dot/frontend/web/book.xml&quot; in C:\xampp\htdocs\dot\frontend\views\site\peta.php:39
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'DOMDocument::lo...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\dot\frontend\views\site\peta.php(39): DOMDocument->load('book.xml')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#7 [internal function]: frontend\controllers\SiteController->actionPeta()
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#12 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2018-08-02 06:02:16 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53696'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533182536.172
+    'REQUEST_TIME' => 1533182536
+]
+2018-08-02 06:07:47 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'nodeValue' of non-object in C:\xampp\htdocs\dot\frontend\views\site\peta.php:120
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(120): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 06:07:46 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53771'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533182866.927
+    'REQUEST_TIME' => 1533182866
+]
+2018-08-02 06:11:03 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][ParseError] ParseError: syntax error, unexpected 'provinsi' (T_STRING) in C:\xampp\htdocs\dot\frontend\views\site\peta.php:97
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionPeta()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-02 06:11:03 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53847'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533183062.981
+    'REQUEST_TIME' => 1533183062
+]
+2018-08-02 06:12:07 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][ParseError] ParseError: syntax error, unexpected '.', expecting end of file in C:\xampp\htdocs\dot\frontend\views\site\peta.php:107
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionPeta()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-08-02 06:12:07 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53854'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533183127.389
+    'REQUEST_TIME' => 1533183127
+]
+2018-08-02 06:12:30 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'nodeValue' of non-object in C:\xampp\htdocs\dot\frontend\views\site\peta.php:119
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(119): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 06:12:30 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53858'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533183150.61
+    'REQUEST_TIME' => 1533183150
+]
+2018-08-02 06:14:28 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'prov' of non-object in C:\xampp\htdocs\dot\frontend\views\site\peta.php:122
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(122): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 06:14:27 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53874'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533183267.955
+    'REQUEST_TIME' => 1533183267
+]
+2018-08-02 06:14:48 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:2] yii\base\ErrorException: Use of undefined constant prov - assumed 'prov' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\dot\frontend\views\site\peta.php:122
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(122): yii\base\ErrorHandler->handleError(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 06:14:48 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53876'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533183288.228
+    'REQUEST_TIME' => 1533183288
+]
+2018-08-02 06:15:20 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'nodeValue' of non-object in C:\xampp\htdocs\dot\frontend\views\site\peta.php:122
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(122): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 06:15:20 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53883'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533183320.546
+    'REQUEST_TIME' => 1533183320
+]
+2018-08-02 06:15:35 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'tagName' of non-object in C:\xampp\htdocs\dot\frontend\views\site\peta.php:122
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(122): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 06:15:35 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53893'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533183335.56
+    'REQUEST_TIME' => 1533183335
+]
+2018-08-02 06:19:19 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: kontributor in C:\xampp\htdocs\dot\frontend\views\site\peta.php:36
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(36): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 06:19:19 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53926'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533183559.388
+    'REQUEST_TIME' => 1533183559
+]
+2018-08-02 06:19:48 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provinsi' in 'where clause' in C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\dot\frontend\views\site\peta.php(37): yii\db\Query->all()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[<span class="s...')
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#9 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#10 [internal function]: frontend\controllers\SiteController->actionPeta()
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#14 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#15 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provinsi' in 'where clause'
+The SQL being executed was: SELECT * FROM `distribusi_pangan` WHERE `provinsi`='13' in C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\dot\frontend\views\site\peta.php(37): yii\db\Query->all()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[<span class="s...')
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#9 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#10 [internal function]: frontend\controllers\SiteController->actionPeta()
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#14 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#15 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'provinsi' in 'where clause'
+)
+
+2018-08-02 06:19:48 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53930'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533183588.13
+    'REQUEST_TIME' => 1533183588
+]
+2018-08-02 06:20:26 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provinsi' in 'where clause' in C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\dot\frontend\views\site\peta.php(37): yii\db\Query->all()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[<span class="s...')
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#9 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#10 [internal function]: frontend\controllers\SiteController->actionPeta()
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#14 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#15 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provinsi' in 'where clause'
+The SQL being executed was: SELECT * FROM `distribusi_pangan` WHERE `provinsi`='13' in C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\dot\frontend\views\site\peta.php(37): yii\db\Query->all()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[<span class="s...')
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#9 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#10 [internal function]: frontend\controllers\SiteController->actionPeta()
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#14 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#15 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'provinsi' in 'where clause'
+)
+
+2018-08-02 06:20:26 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53934'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533183626.384
+    'REQUEST_TIME' => 1533183626
+]
+2018-08-02 06:21:09 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: tanggal in C:\xampp\htdocs\dot\frontend\views\site\peta.php:44
+Stack trace:
+#0 C:\xampp\htdocs\dot\frontend\views\site\peta.php(44): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionPeta()
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#10 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-08-02 06:21:09 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53938'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533183669.672
+    'REQUEST_TIME' => 1533183669
+]
+2018-08-02 06:21:15 [::1][6][ifomnhhhgq3ku9tk3pum209r67][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provinsi' in 'where clause' in C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\dot\frontend\views\site\peta.php(37): yii\db\Query->all()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[<span class="s...')
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#9 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#10 [internal function]: frontend\controllers\SiteController->actionPeta()
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#14 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#15 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provinsi' in 'where clause'
+The SQL being executed was: SELECT * FROM `distribusi_pangan` WHERE `provinsi`='13' in C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\dot\frontend\views\site\peta.php(37): yii\db\Query->all()
+#5 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[<span class="s...')
+#7 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#8 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('peta', Array, Object(frontend\controllers\SiteController))
+#9 C:\xampp\htdocs\dot\frontend\controllers\SiteController.php(309): yii\base\Controller->render('peta', Array)
+#10 [internal function]: frontend\controllers\SiteController->actionPeta()
+#11 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('peta', Array)
+#14 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/peta', Array)
+#15 C:\xampp\htdocs\dot\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\xampp\htdocs\dot\frontend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'provinsi' in 'where clause'
+)
+
+2018-08-02 06:21:15 [::1][6][ifomnhhhgq3ku9tk3pum209r67][info][application] $_GET = [
+    'r' => 'site/peta'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM\",2592000]\";}'
+    '_identity-frontend' => 'e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"0fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz\",2592000]\";}'
+    'advanced-frontend' => 'ifomnhhhgq3ku9tk3pum209r67'
+    '_csrf-frontend' => '512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dot/frontend/web/'
+    'HTTP_COOKIE' => '_identity-backend=8ee0233e0af1f1286007b08ba861c13d145829674abaa81d810edcca2235a2bda%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22ph-5Rv0TIJUu6T9szmiLV6SDCfANjNnM%22%2C2592000%5D%22%3B%7D; _identity-frontend=e33a9281faa6376a25d12f8d2198ef5ee4d20e1621fa1e855f7334fb33b22db0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%220fO53zi4BxiUz6WMAbFTKPzmhnFl1BXz%22%2C2592000%5D%22%3B%7D; advanced-frontend=ifomnhhhgq3ku9tk3pum209r67; _csrf-frontend=512a415468b01af56eccaee466cb42ed7aaefeaf806145ada1853ee3cb19f249a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h6WVtceCxvBrdHQIRdo6uMM7qUVOOzkN%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\mazharrasyad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Muhammad Azhar R\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mazharrasyad\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/dot/frontend/web/index.php'
+    'REMOTE_PORT' => '53940'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/peta'
+    'REQUEST_URI' => '/dot/frontend/web/index.php?r=site/peta'
+    'SCRIPT_NAME' => '/dot/frontend/web/index.php'
+    'PHP_SELF' => '/dot/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533183675.511
+    'REQUEST_TIME' => 1533183675
+]

@@ -300,8 +300,13 @@ class SiteController extends Controller
     {
         $model = new \common\models\KontributorPangan();
 
+        $provinsis = \common\models\Provinsi::find()->select(['nama', 'id'])
+          ->indexBy('id')
+          ->column();
+
         return $this->render('peta', [
           'model' => $model,
+          'provinsis' => $provinsis,
         ]);
     }
 }
