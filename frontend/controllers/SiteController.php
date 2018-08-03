@@ -247,8 +247,8 @@ class SiteController extends Controller
             }
         } else
             echo "<option>-</option>";
-
     }
+
     public function actionKec($id)
     {
         $kecamatans = \common\models\Kecamatan::find()
@@ -263,8 +263,8 @@ class SiteController extends Controller
             }
         } else
             echo "<option>-</option>";
-
     }
+
     public function actionDesa($id)
     {
         $kelurahans = \common\models\Kelurahan::find()
@@ -279,7 +279,6 @@ class SiteController extends Controller
             }
         } else
             echo "<option>-</option>";
-
     }
 
     public function actionDistribusiPangan()
@@ -296,17 +295,69 @@ class SiteController extends Controller
         ]);
     }
 
-    public function actionPeta()
+    public function actionRulesPeta()
     {
         $model = new \common\models\KontributorPangan();
 
-        $provinsis = \common\models\Provinsi::find()->select(['nama', 'id'])
+        $provinsis = \common\models\Provinsi::find()->select(['id', 'id'])
+          ->indexBy('id')
+          ->column();
+
+        return $this->render('rules_peta', [
+          'model' => $model,
+          'provinsis' => $provinsis,
+        ]);
+    }
+
+    public function actionPeta()
+    {
+        $model = new \common\models\KontributorPangan();
+        $provinsi_id = '13';
+        $tanggal = '2018-07-31';
+
+        $provinsis = \common\models\Provinsi::find()->select(['id', 'id'])
           ->indexBy('id')
           ->column();
 
         return $this->render('peta', [
           'model' => $model,
           'provinsis' => $provinsis,
+          'provinsi_id' => $provinsi_id,
+          'tanggal' => $tanggal,
         ]);
+    }
+
+    public function actionCoba()
+    {
+        return $this->render('coba');
+    }
+
+    public function actionValidate()
+    {
+      if(null != (Yii::$app->request->post('test'))){
+          $test = "Ajax Worked!";
+          // do your query stuff here
+      }else{
+          $test = "Ajax failed";
+          // do your query stuff here
+      }
+
+      // return Json
+      return \yii\helpers\Json::encode($test);
+      
+      $model = new \common\models\KontributorPangan();
+      $provinsi_id = '13';
+      $tanggal = '2018-07-31';
+
+      $provinsis = \common\models\Provinsi::find()->select(['id', 'id'])
+        ->indexBy('id')
+        ->column();
+
+      return $this->render('peta', [
+        'model' => $model,
+        'provinsis' => $provinsis,
+        'provinsi_id' => $provinsi_id,
+        'tanggal' => $tanggal,
+      ]);
     }
 }
