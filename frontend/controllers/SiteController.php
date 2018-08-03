@@ -323,56 +323,5 @@ class SiteController extends Controller
 
       // return Json
       return \yii\helpers\Json::encode($test);
-
-      $model = new \common\models\KontributorPangan();
-      $provinsi_id = '13';
-      $tanggal = '2018-07-31';
-
-      $provinsis = \common\models\Provinsi::find()->select(['id', 'id'])
-        ->indexBy('id')
-        ->column();
-
-      return $this->render('peta', [
-        'model' => $model,
-        'provinsis' => $provinsis,
-        'provinsi_id' => $provinsi_id,
-        'tanggal' => $tanggal,
-      ]);
-    }
-
-    public function actionCoba()
-    {
-      $model = new \common\models\KontributorPangan();
-      $provinsi_id = '13';
-      $tanggal = '2018-07-31';
-
-      $provinsis = \common\models\Provinsi::find()->select(['nama', 'id'])
-        ->indexBy('id')
-        ->column();
-
-      return $this->render('coba', [
-        'model' => $model,
-        'provinsis' => $provinsis,
-        'provinsi_id' => $provinsi_id,
-        'tanggal' => $tanggal,
-      ]);
-    }
-
-    public function actionCoba1($provinsi_id)
-    {
-      $model = new \common\models\KontributorPangan();
-      $provinsi_id = '13';
-      $tanggal = '2018-07-31';
-
-      $provinsis = \common\models\Provinsi::find()->select(['id', 'id'])
-        ->indexBy('id')
-        ->column();
-
-      return $this->render('coba', [
-        'model' => $model,
-        'provinsis' => $provinsis,
-        'provinsi_id' => $provinsi_id,
-        'tanggal' => $tanggal,
-      ]);
     }
 }

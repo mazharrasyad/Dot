@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-use yii\jui\DatePicker;
+use kartik\date\DatePicker;
 
 $request = Yii::$app->request;
 $this->title = 'Peta Distribusi Pangan';
@@ -34,12 +34,15 @@ $this->params['breadcrumbs'][] = $this->title;
         'class' => 'form-control'
     ]);
 
-    echo "<br>Tanggal Distribusi Pangan : ".DatePicker::widget([
+    echo DatePicker::widget([
         'id' => 'tanggal',
-        'dateFormat' => 'yyyy-MM-dd',
+        'name' => 'tanggal',
+        'options' => ['placeholder' => 'Pilih Tanggal'],
+        'pluginOptions' => [
+            'format' => 'yyyy-mm-dd',
+            'todayHighlight' => true
+        ]
     ]);
-
-    //echo Html::button('Filter', ['onclick' => 'pilih()']);
 
     Html::endForm();
   ?>

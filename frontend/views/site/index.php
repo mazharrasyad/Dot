@@ -12,7 +12,7 @@ $this->title = 'Dot';
         <p class="lead">Ketersediaan Pangan</p>
 
         <p><a class="btn btn-lg btn-success" href="index.php?r=site/kontributor-pangan">Daftar Kontributor Pangan</a></p>
-        <p><a class="btn btn-lg btn-success" href="index.php?r=site/coba">Peta Distribusi Pangan</a></p>
+        <p><a class="btn btn-lg btn-success" href="index.php?r=site/peta">Peta Distribusi Pangan</a></p>
     </div>
 
     </div>
