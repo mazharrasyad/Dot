@@ -67,8 +67,10 @@ environments/            contains environment-based overrides
 4. Ekstrak zip tersebut supaya menjadi folder dan rename menjadi "dot"
 5. Pastikan memiliki localhost (disarankan XAMPP versi >= 7.0.0 dan PHP versi >= 7.0.0)
 6. Copy dan paste folder "basmalah" ke htdocs
-7. Buat database db_basmalah dan import file db_basmalah.sql
-8. Buka browser dan jalankan http://localhost/dot/frontend/web atau http://localhost/dot/backend/web
+7. Buat database db_dot dan import file db_dot.sql
+8. Buka Terminal atau Command Line (CMD) dan arahkan direktori ke project dot (ex : cd C:\xampp\htdocs\dot)
+9. Ketikkan di command line "composer install"
+10. Buka browser dan jalankan http://localhost/dot/frontend/web atau http://localhost/dot/backend/web
 
 Catatan : 
 - Jika pengguna linux maka lakukan perintah chmod, contohnya :
