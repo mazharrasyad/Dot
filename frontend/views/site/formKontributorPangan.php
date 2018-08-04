@@ -141,11 +141,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?= $form->field($model, 'kode_pos')->textInput(['type' => 'number'])->widget(MaskedInput::classname(), ['mask' => '[99999]', 'clientOptions' => ['removeMaskOnSubmit'=> true]])->hint('Contoh : 16914') ?>
 
-    <div id="peta" style="width:100%;height:380px;" hidden></div>
+    <div id="peta" style="width:100%;height:380px;" ></div>
 
-    <div hidden> <?= $form->field($model, 'lat')->textInput(['maxlength' => true, 'id' => "lat"]) ?> </div>
+    <div > <?= $form->field($model, 'lat')->textInput(['maxlength' => true, 'id' => "lat"]) ?> </div>
 
-    <div hidden> <?= $form->field($model, 'lng')->textInput(['maxlength' => true, 'id' => "lng"]) ?> </div>
+    <div > <?= $form->field($model, 'lng')->textInput(['maxlength' => true, 'id' => "lng"]) ?> </div>
 
     <div hidden> <?= $form->field($model, 'user_id')->textInput(['value' => '0']) ?> </div>
 

@@ -273,7 +273,7 @@ class SiteController extends Controller
                 ->all();
 
         if ($kelurahans) {
-            echo "<option> Pilih Desa/Kelurahan </option>";
+            echo "<option> Pilih Desa / Kelurahan </option>";
             foreach($kelurahans as $kelurahan) {
                 echo "<option value='".$kelurahan->id."'>".$kelurahan->nama."</option>";
             }

@@ -47,4 +47,4 @@ $kontributor_pangan_id = KontributorPangan::find()
         </div>
     <?php ActiveForm::end(); ?>
 
-</div><!-- site-formDistribusiPangan -->
+</div>

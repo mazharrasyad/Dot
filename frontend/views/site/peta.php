@@ -30,7 +30,6 @@ $this->params['breadcrumbs'][] = $this->title;
     echo Html::dropDownList('provinsi', null, $provinsis, [
         'id' => 'prov',
         'prompt' => 'Pilih Provinsi',
-        //'onchange' => 'pilih()',
         'class' => 'form-control'
     ]);
 
@@ -99,21 +98,15 @@ $this->params['breadcrumbs'][] = $this->title;
     var marker;
     function initialize()
     {
-
-      // Variabel untuk menyimpan informasi (desc)
       var infoWindow = new google.maps.InfoWindow;
-      //  Variabel untuk menyimpan peta Roadmap
       var mapOptions =
       {
-        center:new google.maps.LatLng(-6.2212790112294964, 106.85128400000008),
-        zoom:9,
+        center:new google.maps.LatLng(-2.279866, 117.369878),
+        zoom:5,
         mapTypeId:google.maps.MapTypeId.ROADMAP
       };
-      // Pembuatan petanya
       var map = new google.maps.Map(document.getElementById('peta'), mapOptions);
-      // Variabel untuk menyimpan batas kordinat
       var bounds = new google.maps.LatLngBounds();
-      // Pengambilan data dari database
 
       <?php
       $query = new yii\db\Query();
@@ -147,7 +140,7 @@ $this->params['breadcrumbs'][] = $this->title;
         }
       }
       ?>
-      // Proses membuat marker
+
       function addMarker(lat, lng, info)
       {
         var lokasi = new google.maps.LatLng(lat, lng);
@@ -160,7 +153,7 @@ $this->params['breadcrumbs'][] = $this->title;
         map.fitBounds(bounds);
         bindInfoWindow(marker, map, infoWindow, info);
       }
-      // Menampilkan informasi pada masing-masing marker yang diklik
+
       function bindInfoWindow(marker, map, infoWindow, html)
       {
         google.maps.event.addListener(marker, 'click', function()
