@@ -58,3 +58,21 @@ frontend
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
+
+## Cara Penggunaan
+
+1. Klik tombol hijau "Clone or download" di atas kanan
+2. Pilih Download ZIP dan tunggu sampai selesai
+3. Jika sudah maka zipnya bernama "Dot-master"
+4. Ekstrak zip tersebut supaya menjadi folder dan rename menjadi "dot"
+5. Pastikan memiliki localhost (disarankan XAMPP versi >= 7.0.0 dan PHP versi >= 7.0.0)
+6. Copy dan paste folder "basmalah" ke htdocs
+7. Buat database db_basmalah dan import file db_basmalah.sql
+8. Buka browser dan jalankan http://localhost/dot/frontend/web atau http://localhost/dot/backend/web
+
+Catatan : 
+- Jika pengguna linux maka lakukan perintah chmod, contohnya :
+<br>$ cd /opt/lampp/htdocs
+<br>$ sudo chmod -R 777 /dot
+  
+## Selesai
