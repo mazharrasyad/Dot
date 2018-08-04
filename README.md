@@ -77,4 +77,8 @@ Catatan :
 <br>$ cd /opt/lampp/htdocs
 <br>$ sudo chmod -R 777 /dot
   
-## Selesai
+## Development
+
+- Design
+- User Friendly
+- Validation
